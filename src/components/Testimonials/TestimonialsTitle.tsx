@@ -1,4 +1,4 @@
-const SectionTitle = ({
+const TestimonialsTitle = ({
   title,
   paragraph,
   width = "700px",
@@ -19,10 +19,10 @@ const SectionTitle = ({
         className={`w-full ${center ? "mx-auto text-center" : ""}`}
         style={{ maxWidth: width, marginBottom: mb, marginTop: mt }}
       >
-        <h3 className="mb-4 text-2xl font-bold !leading-tight text-black dark:text-white sm:text-2xl md:text-2xl">
+        <h3 className="mb-4 text-2xl font-bold !leading-tight text-white dark:text-white sm:text-2xl md:text-2xl">
           {title}
         </h3>
-        <p className="text-base !leading-relaxed text-body-color md:text-lg">
+        <p className="text-base !leading-relaxed text-white md:text-lg">
           {paragraph}
         </p>
       </div>
@@ -30,4 +30,4 @@ const SectionTitle = ({
   );
 };
 
-export default SectionTitle;
+export default TestimonialsTitle;

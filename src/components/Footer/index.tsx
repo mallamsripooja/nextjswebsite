@@ -93,10 +93,14 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    Flat No. 404, Krishna Residency, 5-10-187/3, Hill Fort Road, Hyd - 500004
+                    <p>
+                      Flat No. 404, Krishna Residency, 5-10-187/3, Hill Fort Road, Hyd - 500004
+                    </p>
                   </li>
                   <li>
-                    info@surmandal.in
+                    <p>
+                      info@surmandal.in
+                    </p>
                   </li>
                   <li>
                     <Link
@@ -147,7 +151,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  More links
                 </h2>
                 <ul>
                   <li>
@@ -187,7 +191,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/sripooja-m-94168a148/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary"
+                className="text-primary text-bold hover:text-primary"
               >
                 Sripooja M.
               </a>

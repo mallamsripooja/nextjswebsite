@@ -16,7 +16,8 @@ const Contact = () => {
                 Become a Part of Surmandal!
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Join us in celebrating the rich legacy of Indian classical music. Sign up for membership today!
+                Join us in celebrating the rich legacy of Indian classical music. 
+                <br></br>Sign up for membership today!
               </p>
               <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLScnPC80Rbcw5vnIRkQahPqcWfLHNzbMgiY8bUXHsRp9hcChVA/viewform?usp=sf_link"

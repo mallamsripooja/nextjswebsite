@@ -1,23 +1,24 @@
 import { Testimonial } from "@/types/testimonial";
-import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+import TestimonialsTitle from "./TestimonialsTitle";
+import Link from "next/link";
 
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Himanshu Tambe",
-    designation: "Surmandal member",
-    content:
-      "I’ve always enjoyed Surmandal concerts. I like the way they have started inviting and sponsoring more upcoming artistes.",
-    star: 4,
-  },
-  {
-    id: 2,
     name: "Mahtab S Bamji",
     designation: "Senior member of Surmandal",
     content:
       "I was worried about the future of Surmandal after Mohan Hemadi passed away. But his son Sidharth, Nagesh, Kini et al are doing fantastic job. Thank you.",
     star: 5,
+  },
+  {
+    id: 2,
+    name: "Himanshu Tambe",
+    designation: "Surmandal member",
+    content:
+      "I’ve always enjoyed Surmandal concerts. I like the way they have started inviting and sponsoring more upcoming artistes.",
+    star: 4,
   },
   {
     id: 3,
@@ -27,30 +28,31 @@ const testimonialData: Testimonial[] = [
       "Every time its a heartfelt feeling, we are reaping the hard work of our great Sri Mohan Hemadi ji. No words to express our thankfulness to his vision. Equally his son Mr.Siddarth and Mr. Nagesh ji are continuing his legacy. ",
     star: 5,
   },
-  {
-    id: 4,
-    name: "Shyam Prasad V",
-    designation: "Surmandal member",
-    content:
-      "Beyond words could explain. High quality.",
-    star: 5,
-  },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="dark:bg-bg-color-dark bg-primary relative z-10 py-8 md:py-10 lg:py-">
       <div className="container">
-        <SectionTitle
+        <TestimonialsTitle
           title="What Our Audience Says"
           paragraph="Heartfelt Experiences from Our Music Enthusiasts!"
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid items-stretch grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
+        </div>
+        
+        <div className="text-center" style={{ marginTop: "80px", marginBottom: "50px" }}>
+          <Link
+            href="#"
+            className="rounded-sm bg-white px-8 py-4 text-base font-semibold text-primary duration-300 ease-in-out hover:bg-gray-light"
+          >
+            Read testimonials of artists and audience
+          </Link>
         </div>
       </div>
       <div className="absolute right-0 top-5 z-[-1]">

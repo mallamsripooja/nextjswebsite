@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
@@ -10,7 +11,7 @@ const FlagshipEvents = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 py-16 md:py-20 lg:py-28" style={{ backgroundImage: "url('/images/flagship/flagshipbg_overlay1.png')" }} >
       <div className="container">
         <SectionTitle
           title="Flagship Events"
@@ -46,6 +47,16 @@ const FlagshipEvents = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="text-center" style={{ marginTop: "40px" }}>
+          <Link
+            target="_blank"
+            href="https://www.youtube.com/channel/UCYmHP44yhlpIFCCHL3QpEZg"
+            className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+          >
+            More videos
+          </Link>
         </div>
       </div>
 
