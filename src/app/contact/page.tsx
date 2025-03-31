@@ -16,10 +16,10 @@ const ContactPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">
             <div className="flex flex-col items-center">    
               <Image 
-                src="/images/about/siddharthji.jpg" 
+                src="/images/about/siddharthji.JPG" 
                 width={120} 
                 height={120} 
-                alt="Secretary's Image" 
+                alt="President's Image" 
                 className="rounded-full shadow-md object-cover"
               />
               <h3 className="text-2xl font-medium text-primary mt-4">Siddharth Mohan Hemmadi</h3>
@@ -36,7 +36,7 @@ const ContactPage = () => {
             </div>
             <div className="flex flex-col items-center">     
               <Image 
-                src="/images/about/nageshji.jpg" 
+                src="/images/about/nageshji.JPG" 
                 width={120} 
                 height={120} 
                 alt="Secretary's Image" 
