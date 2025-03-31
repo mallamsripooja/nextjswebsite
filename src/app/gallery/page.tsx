@@ -24,7 +24,7 @@ const GalleryPage = () => {
         Surmandal Gallery – A Visual Journey Through Classical Music
       </h2>
       <p className="text-primary text-lg pb-16 pt-4" style={{ fontFamily: "Merriweather" }}>
-        Explore the rich heritage of Indian classical music through our gallery. View stunning moments from Surmandal’s concerts, featuring legendary artists and mesmerizing performances. <strong>Mohan Ji's legacy is so huge that we are still curating a lot of pictures from Surmandal’s treasure trove—more pictures will be added to the gallery soon!</strong> Click on any image to experience the full grandeur in high resolution.
+        Explore the rich heritage of Indian classical music through our gallery. View stunning moments from Surmandal&apos;s concerts, featuring legendary artists and mesmerizing performances. <strong>Mohan Ji&apos;s legacy is so huge that we are still curating a lot of pictures from Surmandal&apos;s treasure trove—more pictures will be added to the gallery soon!</strong> Click on any image to experience the full grandeur in high resolution.
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         {images.map((src, index) => (

@@ -12,7 +12,7 @@ const ContactPage = () => {
       <section className="container mx-auto px-16 py-20 space-y-24 bg-gradient-to-b from-yellow-50 to-yellow-200">
         {/* Present Committee Members */}
         <div className="text-center">
-          <h2 className="text-3xl pb-8 font-bold text-primary">Surmandal's Core Committee</h2>
+          <h2 className="text-3xl pb-8 font-bold text-primary">Surmandal&apos;s Core Committee</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">
             <div className="flex flex-col items-center">    
               <Image 
