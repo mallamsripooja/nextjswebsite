@@ -97,17 +97,12 @@ const Footer = () => {
                       Flat No. 404, Krishna Residency, 5-10-187/3, Hill Fort Road, Hyd - 500004
                     </p>
                   </li>
-                  <li>
-                    <p>
-                      info@surmandal.in
-                    </p>
-                  </li>
-                  <li>
+                  <li className="pt-4">
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      href="/contact"
+                      className="px-4 py-2 text-sm font-medium text-white bg-primary rounded-full transition duration-300 hover:bg-primary-dark dark:bg-primary-dark dark:hover:bg-primary"
                     >
-                      Contact numbers
+                      Contact Us
                     </Link>
                   </li>
                 </ul>
@@ -122,7 +117,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/#upcomingconcerts"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Upcoming events
@@ -130,7 +125,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/#flagshipevents"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Flagship events
@@ -138,10 +133,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/#recentevents"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Past events
+                      Recent events
                     </Link>
                   </li>
                 </ul>
@@ -156,23 +151,23 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/feedback"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Legacy
+                      Feedback
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Roots of Surmandal
+                      About Surmandal
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/gallery"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Gallery

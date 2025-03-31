@@ -11,7 +11,7 @@ const FlagshipEvents = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28" style={{ backgroundImage: "url('/images/flagship/flagshipbg_overlay1.png')" }} >
+    <section id="flagshipevents" className="relative z-10 py-16 md:py-20 lg:py-28" style={{ backgroundImage: "url('/images/flagship/flagshipbg_overlay1.png')" }} >
       <div className="container">
         <SectionTitle
           title="Flagship Events"

@@ -3,26 +3,26 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
-    path: "/",
+    title: "About",
+    path: "/about",
     newTab: false,
   },
   {
     id: 2,
-    title: "About",
-    path: "/",
+    title: "Membership",
+    path: "/membership",
     newTab: false,
   },
   {
     id: 33,
-    title: "Membership",
-    path: "/",
+    title: "Contact",
+    path: "/contact",
     newTab: false,
   },
   {
     id: 3,
-    title: "Contact",
-    path: "/",
+    title: "Gallery",
+    path: "/gallery",
     newTab: false,
   },
   {
@@ -31,33 +31,15 @@ const menuData: Menu[] = [
     newTab: false,
     submenu: [
       {
-        id: 41,
-        title: "Legacy of Surmandal",
-        path: "/",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Contact Us",
-        path: "/",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Gallery",
-        path: "/",
-        newTab: false,
-      },
-      {
         id: 44,
         title: "Media coverage",
-        path: "/",
+        path: "/media",
         newTab: false,
       },
       {
         id: 45,
-        title: "Musicians about Surmandal",
-        path: "/",
+        title: "Feedback",
+        path: "/feedback",
         newTab: false,
       },
     ],

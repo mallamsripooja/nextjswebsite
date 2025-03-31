@@ -9,7 +9,7 @@ const RecentEvents = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28" style={{ backgroundImage: "url('/images/about/recentevents_bg.png')" }} >
+    <section id="recentevents" className="relative z-10 py-16 md:py-20 lg:py-28" style={{ backgroundImage: "url('/images/about/recentevents_bg.png')" }} >
       <div className="container">
         <SectionTitle
           title="Recents Events"

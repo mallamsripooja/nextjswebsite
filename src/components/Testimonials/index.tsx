@@ -40,19 +40,10 @@ const Testimonials = () => {
           center
         />
 
-        <div className="grid items-stretch grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid items-stretch grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3" style={{ marginBottom: "50px" }}>
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
-        </div>
-        
-        <div className="text-center" style={{ marginTop: "80px", marginBottom: "50px" }}>
-          <Link
-            href="#"
-            className="rounded-sm bg-white px-8 py-4 text-base font-semibold text-primary duration-300 ease-in-out hover:bg-gray-light"
-          >
-            Read testimonials of artists and audience
-          </Link>
         </div>
       </div>
       <div className="absolute right-0 top-5 z-[-1]">
